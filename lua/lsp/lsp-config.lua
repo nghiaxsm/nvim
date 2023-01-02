@@ -8,11 +8,11 @@ local root_dir = function()
 end
 
 -- Show line diagnostics automatically in hover window
-vim.cmd([[
-  autocmd! CursorHold,CursorHoldI * lua vim.diagnostic.open_float(nil, {focus=false})
-]])
+--vim.cmd([[
+--  autocmd! CursorHold,CursorHoldI * lua vim.diagnostic.open_float(nil, {focus=false})
+--]])
 
-local servers = {'bashls', 'pyright', 'clangd', 'sumneko_lua', 'rust_analyzer',}
+local servers = {'bashls', 'pyright', 'clangd', 'sumneko_lua', 'rust_analyzer'}
 
 for _, lsp in ipairs(servers) do
     lspconfig[lsp].setup {
