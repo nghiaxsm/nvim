@@ -1,0 +1,7 @@
+require('plugins.barbar')
+require('plugins.devicons')
+require('plugins.indent-blankline')
+require('plugins.lualine')
+require('plugins.nvim-autopairs')
+require('plugins.nvim-treesitter')
+require('plugins.onedark')
