@@ -100,15 +100,15 @@ _G.packer_plugins = {
     path = "/home/nghiaxsm/.local/share/nvim/site/pack/packer/start/nvim-autopairs",
     url = "https://github.com/windwp/nvim-autopairs"
   },
-  ["nvim-cmp"] = {
-    loaded = true,
-    path = "/home/nghiaxsm/.local/share/nvim/site/pack/packer/start/nvim-cmp",
-    url = "https://github.com/hrsh7th/nvim-cmp"
-  },
   ["nvim-colorizer.lua"] = {
     loaded = true,
     path = "/home/nghiaxsm/.local/share/nvim/site/pack/packer/start/nvim-colorizer.lua",
     url = "https://github.com/norcalli/nvim-colorizer.lua"
+  },
+  ["nvim-lint"] = {
+    loaded = true,
+    path = "/home/nghiaxsm/.local/share/nvim/site/pack/packer/start/nvim-lint",
+    url = "https://github.com/mfussenegger/nvim-lint"
   },
   ["nvim-lspconfig"] = {
     loaded = true,

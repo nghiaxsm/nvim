@@ -1,2 +1,2 @@
 require('lsp.lsp-config')
-require('lsp.linter')
+require('lsp.nvim-lint')

@@ -87,6 +87,11 @@ return require('packer').startup(function(use)
         'neovim/nvim-lspconfig',
     }
 
+    -- Linter
+    use {
+      'mfussenegger/nvim-lint'
+    }
+
     -- Git signs
     use {
         'lewis6991/gitsigns.nvim',
@@ -99,23 +104,6 @@ return require('packer').startup(function(use)
     -- Colorizer
     use {
         'norcalli/nvim-colorizer.lua'
-    }
-
-    -- Autocomplete
-    use {
-        'hrsh7th/nvim-cmp',
-        require = {
-            'M3MON4D3/LuaSnip',
-            'hrsh7th/cmp-nvim-lsp',
-            'hrsh7th/cmp-path',
-            'hrsh7th/cmp-buffer',
-            'saadparwaiz1/cmp_luasnip',
-        }
-    }
-
-    -- Linter
-    use {
-      'mfussenegger/nvim-lint'
     }
 
 end)

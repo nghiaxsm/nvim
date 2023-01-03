@@ -8,4 +8,4 @@ require('options/init')
 require('plugins.init')
 
 -- LSP
-require('lsp.lsp-config')
+require('lsp.init')
