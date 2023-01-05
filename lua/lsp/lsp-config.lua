@@ -12,7 +12,7 @@ end
 --  autocmd! CursorHold,CursorHoldI * lua vim.diagnostic.open_float(nil, {focus=false})
 --]])
 
-local servers = {'bashls', 'pyright', 'clangd', 'sumneko_lua', 'rust_analyzer'}
+local servers = {'bashls', 'pyright', 'clangd', 'sumneko_lua', 'rust_analyzer',}
 
 for _, lsp in ipairs(servers) do
     lspconfig[lsp].setup {

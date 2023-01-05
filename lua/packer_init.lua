@@ -92,6 +92,17 @@ return require('packer').startup(function(use)
       'mfussenegger/nvim-lint'
     }
 
+    -- Autocommands
+    use {
+      'hrsh7th/cmp-nvim-lsp',
+      'hrsh7th/cmp-buffer',
+      'hrsh7th/cmp-path',
+      'hrsh7th/cmp-cmdline',
+      'hrsh7th/nvim-cmp',
+      'L3MON4D3/LuaSnip',
+      'saadparwaiz1/cmp_luasnip'
+    }
+
     -- Git signs
     use {
         'lewis6991/gitsigns.nvim',
