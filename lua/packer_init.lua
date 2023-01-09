@@ -87,11 +87,6 @@ return require('packer').startup(function(use)
         'neovim/nvim-lspconfig',
     }
 
-    -- Linter
-    use {
-      'mfussenegger/nvim-lint'
-    }
-
     -- Autocommands
     use {
       'hrsh7th/cmp-nvim-lsp',

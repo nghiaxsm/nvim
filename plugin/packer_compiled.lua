@@ -140,11 +140,6 @@ _G.packer_plugins = {
     path = "/home/nghiaxsm/.local/share/nvim/site/pack/packer/start/nvim-colorizer.lua",
     url = "https://github.com/norcalli/nvim-colorizer.lua"
   },
-  ["nvim-lint"] = {
-    loaded = true,
-    path = "/home/nghiaxsm/.local/share/nvim/site/pack/packer/start/nvim-lint",
-    url = "https://github.com/mfussenegger/nvim-lint"
-  },
   ["nvim-lspconfig"] = {
     loaded = true,
     path = "/home/nghiaxsm/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
